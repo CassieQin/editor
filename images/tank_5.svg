@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="100px" version="1.1"><defs/>
+    <svg width='100%' height='100%' preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 100" databind="databindHide">
+        <linearGradient id='autoId_horRotor_pipeGrad' y1='-20%' x1='0%' y2='100%' x2='0%' gradientUnits='objectBoundingBox'>
+            <stop offset='-20%' stop-color='#303030' />
+            <stop offset='40%' stop-color='#D0D0D0' />
+            <stop offset='100%' stop-color='#303030'/>
+        </linearGradient>
+        <linearGradient id='autoId_horRotor_pipeGrad2' y1='-20%' x1='0%' y2='100%' x2='0%' gradientUnits='objectBoundingBox'>
+            <stop offset='-20%' stop-color='#006400' />
+            <stop offset='40%' stop-color='#98FB98' />
+            <stop offset='100%' stop-color='#006400' />
+        </linearGradient>
+        <linearGradient id='autoId_horRotor_bladeGrad' x1='-20%' y1='0%' x2='100%' y2='0%' gradientUnits='objectBoundingBox'>
+            <stop offset='-20%' stop-color='#303030' />
+            <stop offset='40%' stop-color='#D0D0D0' />
+            <stop offset='100%' stop-color='#303030'/>
+        </linearGradient>
+        <linearGradient id='autoId_horRotor_bladeGrad2' x1='-20%' y1='0%' x2='100%' y2='0%' gradientUnits='objectBoundingBox'>
+            <stop offset='-20%' stop-color='#006400' />
+            <stop offset='40%' stop-color='#98FB98' />
+            <stop offset='100%' stop-color='#006400'/>
+        </linearGradient>
+        <rect y='45%' x='50%' height='10%' width='50%' style="fill: url('#autoId_horRotor_pipeGrad');" />
+        <g transform="scale(0.2,1) translate(40,0)">
+            <rect y='0%' x='20%' height='100%' width='60%' rx="20" ry="20" style="fill: url('#autoId_horRotor_bladeGrad');">
+                <!-- ko if: typeof value != 'undefined' && (!isNaN(parseFloat(value())) && parseFloat(value()) > 0 || (typeof value() === 'boolean' && value())) -->
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 10 50" to="360 10 50" dur="4s" repeatCount="indefinite" />
+                <!-- /ko -->
+            </rect>
+        </g>
+        <rect y='45%' x='0%' width='50%' height='10%' style="fill: url('#autoId_horRotor_pipeGrad');" />
+    </svg>
+</svg>

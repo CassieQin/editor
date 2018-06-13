@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg"  width="40px" height="100px" version="1.1"><defs/>
+<svg width='100%' height='100%' viewBox="0 0 40 100" databind="databindHide">
+  <path id="damper_frameBottom" d="M 40,70 L30,70 L0,100 L10,100" fill="#C0C0C0" />
+  <path id="damper_frameBack" d="M 40,70 L30,70 L30,10 L40,0" fill="#A0A0A0" />
+  <!-- ko if: typeof value != 'undefined' && (!isNaN(parseFloat(value())) && parseFloat(value()) > 0 || (typeof value() === 'boolean' && value())) -->
+  <g id="damperOpenRibs" databind="databind1" style="display: none;">
+    <path d="M 41,60 L30,60 L0,90 L11,90 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+    <path d="M 41,50 L30,50 L0,80 L11,80 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+    <path d="M 41,40 L30,40 L0,70 L11,70 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+    <path d="M 41,30 L30,30 L0,60 L11,60 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+    <path d="M 41,20 L30,20 L0,50 L11,50 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+    <path d="M 41,10 L30,10 L0,40 L11,40 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+  </g>
+  <!-- /ko -->
+  <!-- ko if: !(typeof value != 'undefined' && (!isNaN(parseFloat(value())) && parseFloat(value()) > 0 || (typeof value() === 'boolean' && value()))) -->
+  <g id="damperClosedRibs" databind="databind2" style="display: block;">
+    <path d="M 37,64 L34,56 L4,88 L7,94 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+    <path d="M 37,54 L34,46 L4,77 L7,84 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+    <path d="M 37,44 L34,36 L4,67 L7,74 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+    <path d="M 37,34 L34,26 L4,57 L7,64 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+    <path d="M 37,24 L34,16 L4,47 L7,54 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+    <path d="M 37,14 L34,06 L4,37 L7,44 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+  </g>
+  <!-- /ko -->
+  <path id="damper_frameTop" d="M 30,0 L0,30 L10,30 L40,0" fill="#C0C0C0" />
+  <path id="damper_frameFront" d="M 0,30 L0,100 L10,100 L10,30" fill="#A0A0A0" />
+  <svg x="2" y="35">
+    <rect width="6" height="10" fill="#00FF00" databind="databind1" style="display: none;"/>
+    <rect width="6" height="10" fill="#606060" databind="databind2" style="display: block;"/>
+  </svg>
+</svg>
+</svg>

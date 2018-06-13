@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" version="1.1"><defs/>
+    <svg width='100%' height='100%' preserveAspectRatio="xMinYMin meet" viewBox="0 0 100 100" databind="databindHide">
+        <radialGradient id='autoId_cutaway_internalGrad' cx="70%" cy="70%" r="80%" fx="70%" fy="70%">
+            <stop  offset='-100%' stop-color='#303030'/>
+            <stop  offset='0%' stop-color='#D0D0D0'/>
+            <stop  offset='100%' stop-color='#303030'/>
+        </radialGradient>
+        <radialGradient id='autoId_cutaway_internalGrad2' cx="70%" cy="70%" r="80%" fx="70%" fy="70%">
+            <stop  offset='-100%' stop-color='#006400'/>
+            <stop  offset='0%' stop-color='#98FB98'/>
+            <stop  offset='100%' stop-color='#006400'/>
+        </radialGradient>
+        <radialGradient id='autoId_cutaway_fillGrad' cx="70%" cy="70%" r="150%" fx="70%" fy="70%" >
+            <stop  offset='-150%' stop-color='#FFFFFF'/>
+            <stop  offset='0%' stop-color='#0000FF'/>
+            <stop  offset='150%' stop-color='#FFFFFF'/>
+        </radialGradient>
+        <radialGradient id='autoId_cutaway_fillGrad2' cx="70%" cy="70%" r="150%" fx="70%" fy="70%" >
+            <stop  offset='-150%' stop-color='#EEE8AA'/>
+            <stop  offset='0%' stop-color='#800000'/>
+            <stop  offset='150%' stop-color='#EEE8AA'/>
+        </radialGradient>
+        <clipPath >
+            <!--<rect x="15%" y="15%" width="70%"
+                  data-bind="attr: { height: (typeof value != 'undefined' && !isNaN(value())? (value() < 0.0 ? 100.0 : (value() >= 100.0 ? 0.0 : 100.0 - value() ) ) : 100.0) / 100.0 * 70.0 + '%' }"/>-->
+            <rect x="15%" y="15%" width="70%" height='70%'/>
+        </clipPath>
+        <path d="M75,15 L85,25 L75,35 L85,45 L75,55 L85,65 L75,75 L85,85     L25,85   L15,75 L25,65 L15,55 L25,45 L15,35 L25,25 L15,15 Z" style="fill: url('#autoId_cutaway_fillGrad');" />
+        <path d="M75,15 L85,25 L75,35 L85,45 L75,55 L85,65 L75,75 L85,85     L25,85   L15,75 L25,65 L15,55 L25,45 L15,35 L25,25 L15,15 Z"
+              style="fill: url('#autoId_cutaway_internalGrad');clip-path: url('#autoId_cutaway_clipPath');" />
+    </svg>
+</svg>

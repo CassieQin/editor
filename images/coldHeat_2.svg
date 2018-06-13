@@ -1,0 +1,63 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="200px" viewBox="0 0 999 643" version="1.1" databind="databindHide"><defs/>
+  <svg width="999" heitht="643" fill="none">
+  <polygon fill="#336666" stroke="#000000" stroke-width="3" points="881,535 987,535 987,643 881,643 881,535" />
+  <polygon fill="#336666" stroke="#000000" stroke-width="3" points="809,89 827,89 827,209 809,209 809,89" />
+  <polygon fill="#003333" points="11,571 797,571 797,595 11,595 11,571" />
+  <polygon fill="#336666" points="0,72 0,0 147,0 147,72 0,72" />
+  <polygon fill="#336666" points="809,72 809,571 0,571 0,72 809,72" />
+  <polygon fill="#407373" points="0,97 809,97 809,545 0,545 0,97" />
+  <polygon fill="#407373" points="8,72 8,0 141,0 141,72 8,72" />
+  <polygon fill="#4c7f7f" points="15,72 15,0 131,0 131,72 15,72" />
+  <polygon fill="#4c7f7f" points="0,125 809,125 809,517 0,517 0,125" />
+  <polygon fill="#598c8c" points="0,151 809,151 809,491 0,491 0,151" />
+  <polygon fill="#598c8c" points="24,72 24,0 123,0 123,72 24,72" />
+  <polygon fill="#669999" points="32,72 32,0 115,0 115,72 32,72" />
+  <polygon fill="#669999" points="0,179 809,179 809,463 0,463 0,179" />
+  <polygon fill="#73a6a6" points="0,205 809,205 809,437 0,437 0,205" />
+  <polygon fill="#73a6a6" points="39,72 39,0 107,0 107,72 39,72" />
+  <polygon fill="#7fb2b2" points="48,72 48,0 101,0 101,72 48,72" />
+  <polygon fill="#7fb2b2" points="0,231 809,231 809,411 0,411 0,231" />
+  <polygon fill="#8cbfbf" points="0,259 809,259 809,383 0,383 0,259" />
+  <polygon fill="#8cbfbf" points="55,72 55,0 91,0 91,72 55,72" />
+  <polygon fill="#99cccc" points="63,72 63,0 86,0 86,72 63,72" />
+  <polygon fill="#99cccc" points="0,285 809,285 809,357 0,357 0,285" />
+  <polygon fill="#99cccc" points="0,595 950,595 950,643 0,643 0,595" />
+  <polyline stroke="#000000" stroke-width="3" points="0,72 809,72 809,571 0,571 0,72" />
+  <polyline stroke="#000000" stroke-width="3" points="0,72 0,0 147,0 147,72 0,72" />
+  <polygon fill="#669999" points="0,607 950,607 950,631 0,631 0,607" />
+  <polyline stroke="#000000" stroke-width="3" points="0,595 950,595 950,643 0,643 0,595" />
+  <polygon fill="#669999" stroke="#000000" stroke-width="3" points="731,595 737,529 755,529 761,595 731,595" />
+  <polygon fill="#669999" stroke="#000000" stroke-width="3" points="48,595 53,529 72,529 77,595 48,595" />
+  <polygon fill="#336666" points="809,441 833,441 833,465 915,465 915,441 926,423 939,441 939,465 999,465 999,507 939,507 939,529 926,547 915,529 915,507 833,507 833,529 809,529 809,441" />
+  <polygon fill="#669999" points="809,453 833,453 833,471 915,471 915,453 926,441 939,453 939,471 999,471 999,501 939,501 939,517 926,529 915,517 915,501 833,501 833,517 809,517 809,453" />
+  <polygon fill="#99cccc" points="809,467 833,467 833,477 915,477 915,467 926,459 939,467 939,477 999,477 999,495 939,495 939,505 926,511 915,505 915,495 833,495 833,505 809,505 809,467" />
+  <polyline stroke="#000000" stroke-width="3" points="809,441 833,441 833,465 915,465 915,441 926,423 939,441 939,465 999,465 999,507 939,507 939,529 926,547 915,529 915,507 833,507 833,529 809,529 809,441" />
+  <polygon fill="#99cccc" stroke="#000000" stroke-width="3" points="857,459 963,459 963,565 857,565 857,459" />
+  <polyline stroke="#003333" stroke-width="3" points="665,77 665,565" />
+  <polyline stroke="#ccffff" stroke-width="3" points="607,369 607,273 647,273" />
+  <polyline stroke="#336666" stroke-width="3" points="607,369 647,369 647,273" />
+  <polyline stroke="#99cccc" stroke-width="3" points="607,215 607,144 647,144" />
+  <polyline stroke="#003333" stroke-width="3" points="607,215 647,215 647,144" />
+  <polygon fill="#336666" points="607,215 647,215 647,222 607,222 607,215" />
+  <polygon fill="#669999" points="189,571 905,571 905,589 189,589 189,571" />
+  <polygon fill="#ccffff" points="189,579 905,579 905,583 189,583 189,579" />
+  <polyline stroke="#000000" stroke-width="3" points="189,571 905,571 905,589 189,589 189,571" />
+  <polygon fill="#669999" stroke="#000000" stroke-width="3" points="595,565 629,565 629,595 595,595 595,565" />
+  <polygon fill="#669999" points="517,565 553,565 553,595 517,595 517,565" />
+  <polygon fill="#669999" points="439,565 475,565 475,595 439,595 439,565" />
+  <polygon fill="#669999" points="363,565 397,565 397,595 363,595 363,565" />
+  <polygon fill="#669999" stroke="#000000" stroke-width="3" points="285,565 321,565 321,595 285,595 285,565" />
+  <polygon fill="#ccffff" points="595,577 629,577 629,583 595,583 595,577" />
+  <polygon fill="#ccffff" points="517,577 553,577 553,583 517,583 517,577" />
+  <polygon fill="#ccffff" points="439,577 475,577 475,583 439,583 439,577" />
+  <polygon fill="#ccffff" points="363,577 397,577 397,583 363,583 363,577" />
+  <polygon fill="#ccffff" points="285,577 321,577 321,583 285,583 285,577" />
+  <polyline stroke="#000000" stroke-width="3" points="363,565 397,565 397,595 363,595 363,565" />
+  <polyline stroke="#000000" stroke-width="3" points="439,565 475,565 475,595 439,595 439,565" />
+  <polyline stroke="#000000" stroke-width="3" points="517,565 553,565 553,595 517,595 517,565" />
+  <polygon fill="#003333" points="945,511 956,511 956,523 945,523 945,511" />
+  <polyline stroke="#000000" stroke-width="3" points="833,465 833,507" />
+  <polygon fill="#003333" points="381,48 387,48 387,72 381,72 381,48" />
+  <polygon fill="#003333" points="469,48 475,48 475,72 469,72 469,48" />
+</svg>
+  </svg>

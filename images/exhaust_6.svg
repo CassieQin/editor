@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" version="1.1"><defs/>
+    <svg width='100%' height='100%' viewBox="0 0 100 100" databind="databindHide">
+        <path id="humidifier_frameTop" d="M 60,0 L30,30 L50,30 L80,0" fill="#C0C0C0" />
+        <path id="humidifier_frameFront" d="M 30,30 L30,100 L50,100 L50,30" fill="#A0A0A0" />
+        <path id="humidifier_frameFace" d="M 80,0 L50,30 L50,100 L80,70" fill="#909090" />
+        <path id="humidifier_backFace" d="M 75,12 L70,17 L70,67 L75,67" fill="#A0A0A0" />
+        <path id="humidifier_bottom" d="M 75,67 L70,67 L55,82 L55,87" fill="#C0C0C0" />
+        <path id="humidifier_grid" d="M 70,17 L55,32 L55,82 L70,67" fill="#0000FF" databind="databind1" style="display:none;"/>
+        <path id="_humidifier_grid" d="M 70,17 L55,32 L55,82 L70,67" fill="#707070" databind="databind2" style="display:block;"/>
+
+        <path id="humidifier_grill0" d="M 32,40 L36,40 L36,90 L32,90" fill="#0000FF" databind="databind1" style="display:none;" />
+        <path id="_humidifier_grill0" d="M 32,40 L36,40 L36,90 L32,90" fill="#707070" databind="databind2" style="display:block;"/>
+
+        <path id="humidifier_grill1" d="M 38,40 L42,40 L42,90 L38,90" fill="#0000FF" databind="databind1" style="display:none;"/>
+        <path id="_humidifier_grill1" d="M 38,40 L42,40 L42,90 L38,90" fill="#707070" databind="databind2" style="display:block;"/>
+
+        <path id="humidifier_grill2" d="M 44,40 L48,40 L48,90 L44,90" fill="#0000FF" databind="databind1" style="display:none;"/>
+        <path id="_humidifier_grill2" d="M 44,40 L48,40 L48,90 L44,90" fill="#707070" databind="databind2" style="display:block;"/>
+        <svg x="43" y="32">
+            <path databind="databind1" style="display:none;" transform="scale(0.5,0.5)" fill="#0000FF" stroke="#D0D0FF" stroke-width="3" d="M40,0 A50,50 0 0 1 60,50 A20,20 0 0 1 20,40 A15,17 0 0 1 25,31 A50,45 0 0 0 40,0"/>
+            <path databind="databind2" style="display:block;" transform="scale(0.5,0.5)" fill="#A0A0A0" stroke="#D0D0D0" stroke-width="3" d="M40,0 A50,50 0 0 1 60,50 A20,20 0 0 1 20,40 A15,17 0 0 1 25,31 A50,45 0 0 0 40,0"/>
+        </svg>
+        <svg x="38" y="25">
+            <path databind="databind1" style="display:none;" transform="scale(0.7,0.7)" fill="#D0D0FF" d="M38,30 A15,15 0 0 0 28,50 A30,30 0 0 1 38,30"/>
+            <path databind="databind2" style="display:block;" transform="scale(0.7,0.7)" fill="#C0C0C0" d="M38,30 A15,15 0 0 0 28,50 A30,30 0 0 1 38,30"/>
+        </svg>
+    </svg>
+</svg>

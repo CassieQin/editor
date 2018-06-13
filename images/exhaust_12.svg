@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120px" height="100px" version="1.1"><defs/>
+<svg viewBox="0 0 120 100"  height="100%" width="100%" databind="databindHide">
+  <path fill="#C0C0C0" d="M66,90 L92,64 A40,40 0 0 0 100,40 L60,40" id="rightPump_right"/>
+  <path fill="#707070" d="M 120,0 L100,20 L100,50 L120,30" id="rightPump_airHoleRight"/>
+  <path fill="#505050" d="M 116,10 L104,22 L104,42 L116,30" id="rightPump_airHole"/>
+  <path fill="#C0C0C0" d="M 120,0 L60,0 A100,100 0 0 0 15,29 L100,20" id="rightPump_top"/>
+  <path fill="#A0A0A0" d="M 80,50 L80,60 A40,40 0 0 1 40,100 A40,40 0 0 1 0,60 A40,40 0 0 1 40,20 L100,20 L100,50" id="rightPump_face"/>
+  <svg height="60" width="60" y="30" x="10" id="rightPump_internals">
+    <clipPath  id="autoId_rightPumpclipPath8">
+      <circle r="30" cy="30" cx="30"/>
+    </clipPath>
+    <circle fill="#505050" r="30" cy="30" cx="30"/>
+    <g style="clip-path: url(&quot;#autoId_rightPumpclipPath8&quot;);">
+      <g>
+        <!-- ko if: typeof value != 'undefined' && (!isNaN(parseFloat(value())) && parseFloat(value()) > 0 || (typeof value() === 'boolean' && value())) -->
+        <animateTransform repeatCount="indefinite" dur="1s" to="0 -20" from="0 0" type="translate" attributeName="transform" attributeType="xml"/>
+        <!-- /ko -->
+        <svg height="120" width="120" y="20"><path stroke="#C0C0C0" stroke-width="5" d="M 0,120 L120,0"/></svg>
+        <svg height="120" width="120" y="0"><path stroke="#C0C0C0" stroke-width="5" d="M 0,120 L120,0"/></svg>
+        <svg height="120" width="120" y="-20"><path stroke="#C0C0C0" stroke-width="5" d="M 0,120 L120,0"/></svg>
+        <svg height="120" width="120" y="-40"><path margin="0,-40,0,40" stroke="#C0C0C0" stroke-width="5" d="M 0,120 L120,0"/></svg>
+        <svg height="120" width="120" y="-60"><path stroke="#C0C0C0" stroke-width="5" d="M 0,120 L120,0"/></svg>
+        <svg height="120" width="120" y="-80"><path stroke="#C0C0C0" stroke-width="5" d="M 0,120 L120,0"/></svg>
+        <svg height="120" width="120" y="-100"><path stroke="#C0C0C0" stroke-width="5" d="M 0,120 L120,0"/></svg>
+      </g>
+    </g>
+    <circle  fill="#404040" r="30" cy="10" cx="40" style="clip-path: url(&quot;#autoId_rightPumpclipPath8&quot;);"/>
+    <circle  fill="#707070" r="10" cy="10" cx="40" style="clip-path: url(&quot;#autoId_rightPumpclipPath8&quot;);"/>
+  </svg>
+
+</svg>
+</svg>

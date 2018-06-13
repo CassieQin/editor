@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>组态编辑器</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/spectrum.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="js/jquery-2.0.3.min.js"></script>
+		<script src="js/spectrum.js"></script>
+		<script src="layer/layer.js"></script>
+		<script src="js/jquery.easyui.min.js"></script>
+		<script src="js/jquery.resizable.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="head">
+				<div class="lt">组态编辑器</div>
+				<div class="rt">
+					<button>保存</button>
+					<button>预览</button>
+				</div>
+			</div>
+			<div class="main">
+				<div class="tool-box lt">
+					<div class="tool-title"><i class="fa fa-steam mr5"></i> 工具箱</div>
+					<ul class="panelBox">
+						<li class="panel panelActive">
+							<div class="panelHead"><i class="fa fa-angle-right"></i> 基础</div>
+							<div class="panelBody tool-list">
+								<div class="tool-li" title="文本"><img src="images/text.svg"/></div>
+								<div class="tool-li" title="链接"><img src="images/link.svg" /></div>
+								<div class="tool-li" title="图片"><img src="images/image.svg" /></div>
+								<div class="tool-li" title="圆形"><img src="images/circle.svg" /></div>
+								<div class="tool-li" title="矩形"><img src="images/rounded_rectangle.svg" /></div>
+							</div>
+						</li>
+						<li class="panel">
+							<div class="panelHead"><i class="fa fa-angle-right"></i> 高级控件</div>
+							<div class="panelBody tool-list">
+								<div class="tool-li" title="仪表"><img src="images/meter.svg"/></div>
+								<div class="tool-li" title="图表"><img src="images/chart.svg"/></div>
+								<div class="tool-li" title="刻度"><img src="images/scale.svg"/></div>
+								<div class="tool-li" title="指令"><img src="images/data_send.svg"/></div>
+								<div class="tool-li" title="报警数据"><img src="images/alarm_history.svg"/></div>
+								<div class="tool-li" title="发送报文"><img src="images/data_cmd.svg"/></div>
+								<div class="tool-li" title="下载数据"><img src="images/download.svg"/></div>
+								<div class="tool-li" title="开关"><img src="images/switch_on.svg"/></div>
+								<div class="tool-li" title="状态指示灯"><img src="images/status_light.svg"/></div>
+							</div>
+						</li>
+						<li class="panel">
+							<div class="panelHead"><i class="fa fa-angle-right"></i> 管道装置</div>
+							<div class="panelBody tool-list">
+								<div class="tool-li" title="管道"><img src="images/right-bottom-elbow.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/bottom-tway.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/left-bottom-elbow.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/right-tway.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/crossPipe.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/left-tway.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/right-top-elbow.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/top-tway.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/left-top-elbow.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/pipe-end-bottom.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/top-valve.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/vertical-pipe.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/left-valve.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/valve.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/right-valve.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/pipe-end-top.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/bottom-valve.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/pump.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/pipe-end-right.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/horizontal-pipe.svg"/></div>
+								<div class="tool-li" title="管道"><img src="images/pipe-end-left.svg"/></div>
+							</div>
+						</li>
+						<li class="panel">
+							<div class="panelHead"><i class="fa fa-angle-right"></i> 罐体搅拌装置</div>
+							<div class="panelBody tool-list">
+								<div class="tool-li" title="罐体搅拌装置"><img src="images/tank_1.svg"/></div>
+								<div class="tool-li" title="罐体搅拌装置"><img src="images/tank_2.svg"/></div>
+								<div class="tool-li" title="罐体搅拌装置"><img src="images/tank_3.svg"/></div>
+								<div class="tool-li" title="罐体搅拌装置"><img src="images/tank_4.svg"/></div>
+								<div class="tool-li" title="罐体搅拌装置"><img src="images/tank_5.svg"/></div>
+							</div>
+						</li>
+						<li class="panel">
+							<div class="panelHead"><i class="fa fa-angle-right"></i> 冷热源</div>
+							<div class="panelBody tool-list">
+								<div class="tool-li" title="锅炉"><img src="images/coldHeat_1.svg"/></div>
+								<div class="tool-li" title="锅炉"><img src="images/coldHeat_2.svg"/></div>
+								<div class="tool-li" title="锅炉"><img src="images/coldHeat_3.svg"/></div>
+								<div class="tool-li" title="锅炉"><img src="images/coldHeat_4.svg"/></div>
+								<div class="tool-li" title="锅炉"><img src="images/coldHeat_5.svg"/></div>
+								<div class="tool-li" title="锅炉"><img src="images/coldHeat_6.svg"/></div>
+								<div class="tool-li" title="锅炉"><img src="images/coldHeat_7.svg"/></div>
+							</div>
+						</li>
+						<li class="panel">
+							<div class="panelHead"><i class="fa fa-angle-right"></i> 给排水</div>
+							<div class="panelBody tool-list">
+								<div class="tool-li" title="离心泵"><img src="images/pump_1.svg"/></div>
+								<div class="tool-li" title="离心泵"><img src="images/pump_2.svg"/></div>
+								<div class="tool-li" title="离心泵"><img src="images/pump_3.svg"/></div>
+								<div class="tool-li" title="离心泵"><img src="images/pump_4.svg"/></div>
+								<div class="tool-li" title="经典泵"><img src="images/pump_5.svg"/></div>
+								<div class="tool-li" title="耐腐蚀潜水泵"><img src="images/pump_6.svg"/></div>
+								<div class="tool-li" title="耐腐蚀连续型泵"><img src="images/pump_7.svg"/></div>
+								<div class="tool-li" title="重型塑料离心泵"><img src="images/pump_8.svg"/></div>
+								<div class="tool-li" title="立式泵"><img src="images/pump_9.svg"/></div>
+							</div>
+						</li>
+						<li class="panel">
+							<div class="panelHead"><i class="fa fa-angle-right"></i> 送排风设备</div>
+							<div class="panelBody tool-list">
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_1.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_2.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_3.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_4.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_5.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_6.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_7.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_8.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_9.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_10.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_11.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_12.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_13.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_14.svg"/></div>
+								<div class="tool-li" title="送排风设备"><img src="images/exhaust_15.svg"/></div>
+							</div>
+						</li>
+						<li class="panel">
+							<div class="panelHead"><i class="fa fa-angle-right"></i> 隔栏</div>
+							<div class="panelBody tool-list">
+								<div class="tool-li" title="隔栏"><img src="images/cage_1.svg"/></div>
+								<div class="tool-li" title="隔栏"><img src="images/cage_2.svg"/></div>
+								<div class="tool-li" title="隔栏"><img src="images/cage_3.svg"/></div>
+								<div class="tool-li" title="隔栏"><img src="images/cage_4.svg"/></div>
+								<div class="tool-li" title="隔栏"><img src="images/cage_5.svg"/></div>
+								<div class="tool-li" title="隔栏"><img src="images/cage_6.svg"/></div>
+								<div class="tool-li" title="隔栏"><img src="images/cage_7.svg"/></div>
+								<div class="tool-li" title="隔栏"><img src="images/cage_8.svg"/></div>
+								<div class="tool-li" title="隔栏"><img src="images/cage_9.svg"/></div>
+								<div class="tool-li" title="隔栏"><img src="images/cage_10.svg"/></div>
+								<div class="tool-li" title="隔栏"><img src="images/cage_11.svg"/></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="canvas-box lt">
+					<ul class="canvas-tool">
+						<li id="toTop">置顶</li>
+						<li id="moveUp">上移一层</li>
+						<li id="toBottom">置底</li>
+						<li id="moveDown">下移一层</li>
+						<li id="copyBtn" title="复制控件"><i class="fa fa-copy"></i></li>
+						<li class="delBtn" title="删除控件"><i class="fa fa-trash-o"></i></li>
+					</ul>
+					<div class="canvas-bg">
+						<div class="canvas"></div>
+					</div>
+				</div>
+				<div class="style-box rt">
+					<input type="text" class="input" id="element" value="" name="" placeholder="控件名称" />
+					<div class="style-setting">
+						<div class="setting-title mt10">
+							<div class="setting-item lt setting-active">属性</div>
+							<div class="setting-item">样式</div>
+						</div>
+						<div class="settingBox">
+							<div class="setting-detail attrSetting">
+								<table class="mt10" style="width:100%"></table>
+							</div>
+							<div class="setting-detail cssSetting" style="display: none;">
+								<table class="mt10" style="width:100%"></table>
+							</div>
+						</div>
+					</div>
+					<div class="setting-title mt10 pl10">图层</div>
+					<div class="setting-select">
+						<select class="mt10 select" id="eleSelect">
+							<option>背景</option>
+						</select>
+						<button class="delBtn btn">删除</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

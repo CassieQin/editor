@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" version="1.1"><defs/>
+    <svg width='100%' height='100%'  viewBox="0 0 100 100" databind="databindHide">
+        <path id="hepaFilter_frameTop" d="M 70,0 L40,30 L50,30 L80,0" fill="#C0C0C0" />
+        <path id="hepaFilter_frameFront" d="M 40,30 L40,100 L50,100 L50,30" fill="#A0A0A0" />
+        <path id="hepaFilter_frameFace" d="M 80,0 L50,30 L50,100 L80,70" fill="#909090" />
+        <path id="hepaFilter_backFace" d="M 75,12 L70,17 L70,67 L75,67" fill="#A0A0A0" />
+        <path id="hepaFilter_bottom" d="M 75,67 L70,67 L55,82 L55,87" fill="#C0C0C0" />
+
+        <path d="M 72.5,20 L67.5,20 L67.5,70 L72.5,70 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+        <path d="M 70,22.5 L65,22.5 L65,72.5 L70,72.5 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+        <path d="M 67.5,25 L62.5,25 L62.5,75 L67.5,75 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+        <path d="M 65,27.5 L60,27.5 L60,77.5 L65,77.5 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+        <path d="M 62.5,30 L57.5,30 L57.5,80 L62.5,80 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+        <path d="M 60,32.5 L55,32.5 L55,82.5 L60,82.5 Z" fill="#C0C0C0" stroke-width="2" stroke="#B0B0B0" stroke-linejoin="Round"/>
+
+        <path id="hepaFilter_frameFaceUpperPart" d="M 80,0 L50,30 L50,35 L80,5" fill="#909090" />
+        <path id="hepaFilter_frameFaceLeftPart" d="M50,30 L50, 100 L55,95 L55,25" fill="#909090" />
+    </svg>
+</svg>

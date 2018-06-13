@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px"  version="1.1"><defs/>
+<!--    <g transform="scale(1,2)">
+        <svg width="35" height="35" >-->
+    <svg width="100%" height="100%" viewBox="0 0 100 100" databind="databindHide">
+        <linearGradient id='autoId_vertTank_vertPipeGrad' x1='-20%' y1='0%' x2='100%' y2='0%' gradientUnits='objectBoundingBox'>
+            <stop  offset='-20%' stop-color='#303030'/>
+            <stop  offset='40%' stop-color='#D0D0D0'/>
+            <stop  offset='100%'  stop-color='#303030'/>
+        </linearGradient>
+        <linearGradient id='autoId_vertTank_vertPipeGrad2' x1='-20%' y1='0%' x2='100%' y2='0%' gradientUnits='objectBoundingBox'>
+            <stop  offset='-20%' stop-color='#006400'/>
+            <stop  offset='40%' stop-color='#98FB98'/>
+            <stop  offset='100%'  stop-color='#006400'/>
+        </linearGradient>
+        <radialGradient id='autoId_vertTank_topPipeGrad' cx="0%" cy="10%" r="150%" fx="30%" fy="30%" >
+            <stop  offset='-20%' stop-color='#303030'/>
+            <stop  offset=' 0%' stop-color='#D0D0D0'/>
+            <stop  offset='150%'  stop-color='#303030'/>
+        </radialGradient>
+        <radialGradient id='autoId_vertTank_topPipeGrad2' cx="0%" cy="10%" r="150%" fx="30%" fy="30%" >
+            <stop  offset='-20%' stop-color='#006400'/>
+            <stop  offset=' 0%' stop-color='#98FB98'/>
+            <stop  offset='150%'  stop-color='#006400'/>
+        </radialGradient>
+        <radialGradient id='autoId_vertTank_bottomPipeGrad' cx="-10%" cy="-30%" r="120%" fx="-10%" fy="-30%" >
+            <stop  offset='-200%' stop-color='#303030'/>
+            <stop  offset='0%' stop-color='#D0D0D0'/>
+            <stop  offset='100%'  stop-color='#303030'/>
+        </radialGradient>
+        <radialGradient id='autoId_vertTank_bottomPipeGrad2' cx="-10%" cy="-30%" r="120%" fx="-10%" fy="-30%" >
+            <stop  offset='-200%' stop-color='#006400'/>
+            <stop  offset='0%' stop-color='#98FB98'/>
+            <stop  offset='100%'  stop-color='#006400'/>
+        </radialGradient>
+        <!-- Body -->
+        <rect x='3%' y='10%' width='94%' height='80%' style="fill: url('#autoId_vertTank_vertPipeGrad');"/>
+        <!-- Half spheres -->
+        <path d="M3,10 A105,90 0 0 1 97,10  Z" style="fill: url('#autoId_vertTank_topPipeGrad');"/>
+        <path d="M3,90 A105,90 0 0 0 97,90  Z" style="fill: url('#autoId_vertTank_bottomPipeGrad');"/>
+        <!-- Gaskets -->
+        <rect x='0%' y='10%' rx="1%" ry="1%" width='100%' height='3%' style="fill: url('#autoId_vertTank_vertPipeGrad');"/>
+        <rect x='0%' y='87%' rx="1%" ry="1%" width='100%' height='3%' style="fill: url('#autoId_vertTank_vertPipeGrad');"/>
+    </svg>
+<!--</svg>
+    </g>-->
+</svg>

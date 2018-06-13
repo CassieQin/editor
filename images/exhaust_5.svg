@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" version="1.1"><defs/>
+<svg width='100%' height='100%' viewBox="0 0 100 100" databind="databindHide">
+  <path id="cooler_frameTop" d="M 60,0 L30,30 L50,30 L80,0" fill="#C0C0C0" />
+  <path id="cooler_frameFront" d="M 30,30 L30,100 L50,100 L50,30" fill="#A0A0A0" />
+  <path id="cooler_frameFace" d="M 80,0 L50,30 L50,100 L80,70" fill="#909090" />
+  <path id="cooler_backFace" d="M 75,12 L70,17 L70,67 L75,67" fill="#A0A0A0" />
+  <path id="cooler_bottom" d="M 75,67 L70,67 L55,82 L55,87" fill="#C0C0C0" />
+  <path id="cooler_grid" d="M 70,17 L55,32 L55,82 L70,67" fill="#ADD8E6" databind="databind1" style="display:none;"/>
+  <path id="_cooler_grid" d="M 70,17 L55,32 L55,82 L70,67" fill="#707070" databind="databind2" style="display:block;"/>
+
+  <path id="cooler_grill0" d="M 32,80 48,40 L48,50 L32,90 Z" fill="#ADD8E6" databind="databind1" style="display:none;" />
+  <path id="_cooler_grill0" d="M 32,80 48,40 L48,50 L32,90 Z" fill="#707070" databind="databind2" style="display:block;" />
+
+  <path id="cooler_grill1" d="M 32,70 44,40 L39,40 L32,58 Z" fill="#ADD8E6" databind="databind1" style="display:none;" />
+  <path id="_cooler_grill1" d="M 32,70 44,40 L39,40 L32,58 Z" fill="#707070" databind="databind2" style="display:block;" />
+
+  <path id="cooler_grill2" d="M 36,90 L48,60 L48,72 L41,90 Z" fill="#ADD8E6" databind="databind1" style="display:none;"  />
+  <path id="_cooler_grill2" d="M 36,90 L48,60 L48,72 L41,90 Z" fill="#707070" databind="databind2" style="display:block;"/>
+
+</svg>
+</svg>

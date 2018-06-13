@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" version="1.1"><defs/>
+    <svg width='100%' height='100%' viewBox="0 0 100 100" databind="databindHide">
+        <path d="M 50,0 L50,5 A25,12.5 0 0 0 25,17.5 A25,12.5 0 0 0 70,25 A25,12.5 0 1 0 70,40 A25,12.5 0 1 0 70,55 A25,12.5 0 1 0 70,70 A25,12.5 0 1 0 70,85" stroke-width="3" stroke="#696969" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0"/>
+    </svg>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" version="1.1"><defs/>
+    <svg width='100%' height='100%' data-bind="ctrlId: 'heater'" viewBox="0 0 100 100" databind="databindHide">
+        <path id="heater_frameTop" d="M 60,0 L30,30 L50,30 L80,0" fill="#C0C0C0" />
+        <path id="heater_frameFront" d="M 30,30 L30,100 L50,100 L50,30" fill="#A0A0A0" />
+        <path id="heater_frameFace" d="M 80,0 L50,30 L50,100 L80,70" fill="#909090" />
+        <path id="heater_backFace" d="M 75,12 L70,17 L70,67 L75,67" fill="#A0A0A0" />
+        <path id="heater_bottom" d="M 75,67 L70,67 L55,82 L55,87" fill="#C0C0C0" />
+        <path id="heater_grid" d="M 70,17 L55,32 L55,82 L70,67" fill="#FFC0CB" databind="databind1" style="display:none;" />
+        <path id="_heater_grid" d="M 70,17 L55,32 L55,82 L70,67" fill="#707070" databind="databind2" style="display:block;"/>
+
+        <path id="heater_grill0" d="M 32,50 L38,50 L38,40 L48,40 L48,44 L42,44 L42,54 L32,54 Z" fill="#FFC0CB" databind="databind1" style="display:none;" />
+        <path id="_heater_grill0" d="M 32,50 L38,50 L38,40 L48,40 L48,44 L42,44 L42,54 L32,54 Z" fill="#707070" databind="databind2" style="display:block;" />
+
+        <path id="heater_grill1" d="M 32,68 L38,68 L38,58 L48,58 L48,62 L42,62 L42,72 L32,72 Z" fill="#FFC0CB" databind="databind1" style="display:none;"/>
+        <path id="_heater_grill1" d="M 32,68 L38,68 L38,58 L48,58 L48,62 L42,62 L42,72 L32,72 Z" fill="#707070" databind="databind2" style="display:block;" />
+
+        <path id="heater_grill2" d="M 32,86 L38,86 L38,76 L48,76 L48,80 L42,80 L42,90 L32,90 Z" fill="#FFC0CB" databind="databind1" style="display:none;" />
+        <path id="_heater_grill2" d="M 32,86 L38,86 L38,76 L48,76 L48,80 L42,80 L42,90 L32,90 Z" fill="#707070" databind="databind2" style="display:block;" />
+
+        <svg id="heater_fire" x="43" y="32">
+            <path databind="databind1" style="display:none;"  transform="scale(0.5,0.5)" fill="#FF0000" stroke="#FFD0D0" stroke-width="3" d="M40,0 A50,50 0 0 1 60,50 A20,20 0 0 1 20,40 A15,17 0 0 1 25,31 A50,45 0 0 0 40,0"/>
+            <path databind="databind2" style="display:block;" transform="scale(0.5,0.5)" fill="#A0A0A0" stroke="#D0D0D0" stroke-width="3" d="M40,0 A50,50 0 0 1 60,50 A20,20 0 0 1 20,40 A15,17 0 0 1 25,31 A50,45 0 0 0 40,0"/>
+        </svg>
+        <svg id="heater_fireCore" x="55" y="49">
+            <path databind="databind1" style="display:none;" transform="scale(0.2,0.2)" fill="#FFE0E0" d="M40,0 A50,50 0 0 1 60,50 A20,20 0 0 1 20,40 A15,17 0 0 1 25,31 A50,45 0 0 0 40,0"/>
+            <path databind="databind2" style="display:block;" transform="scale(0.2,0.2)" fill="#C0C0C0" d="M40,0 A50,50 0 0 1 60,50 A20,20 0 0 1 20,40 A15,17 0 0 1 25,31 A50,45 0 0 0 40,0"/>
+        </svg>
+    </svg>
+</svg>

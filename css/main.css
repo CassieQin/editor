@@ -1,0 +1,270 @@
+/*reset*/
+html,body{width: 100%; height: 100%;}
+body,ul,ol,li,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Microsoft Yahei","微软雅黑","Hiragino Sans GB", "SimSun", "Arial", "Helvetica Neue", "Helvetica";
+}
+li{list-style: none;}
+a{text-decoration: none;}
+a:focus { outline: none; text-decoration: none;}
+button{outline: none; border: none;}
+.lt{float: left;}
+.rt{float: right;}
+.pl10{padding-left: 10px;}
+.pt20{padding-top: 20px;}
+.p20{padding: 20px;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mr5{margin-right: 5px;}
+.btn{
+	padding: 0 6px;
+	text-align: center;
+	height: 28px;
+	line-height: 28px;
+	background: #009F95;
+	color: #fff;
+	border: 1px solid #009F95;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.input{
+	border: 1px solid #cbcbcb;
+	height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.select{
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #cbcbcb;
+	padding: 0 5px;
+}
+.file{
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	width: 68px; 
+	height: 28px; 
+	opacity: 0;
+}
+.relative{position: relative;}
+/*头部设置*/
+.container{
+	width: 100%;
+	height: 100%;
+}
+.main{
+	height: calc(100% - 60px);
+	height: -moz-calc(100% - 60px);
+	height: -webkit-calc(100% - 60px);
+}
+.head{
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	color: #fff;
+	background: #1C2B36;
+}
+/*工具箱设置*/
+.tool-title{
+	height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: #209e91;
+    font-size: 16px;
+    font-weight: 550;
+    padding-left: 20px;
+}
+.panel{border-bottom: 1px solid #dedede;}
+.panelHead{
+	height: 30px;
+	line-height: 30px;
+	background: #ccc;
+	padding-left: 20px;
+	cursor: pointer;
+	color: #666;
+}
+.panelHead i{font-size: 18px; font-weight: 600;}
+.tool-box{
+	width: 15%;
+	height: 100%;
+	background: #dedede;
+	overflow: hidden;
+}
+.tool-list{height: auto; overflow: hidden;}
+.tool-list .tool-li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	margin: 10px 11px;
+}
+.panelBody{display: none; padding: 10px 20px; background: #fff;}
+.panelActive .panelBody{display: block;}
+.tool-li img{width: 50px; height: 50px;}
+/*画布设置*/
+.canvas-box{
+	width: 70%;
+	height: 100%;
+	background: rgb(238, 238, 238);
+}
+.canvas-bg{
+	position: relative;
+	left: 10px;
+	top: 0;
+	bottom: 10px;
+	width: calc(100% - 20px);
+	width: -moz-calc(100% - 20px);
+	width: -webkit-calc(100% - 20px);
+	height: calc(100% - 60px);
+	height: -moz-calc(100% - 60px);
+	height: -webkit-calc(100% - 60px);
+	overflow: auto;
+}
+.canvas{
+	width: calc(100% - 2px);
+	width: -moz-calc(100% - 2px);
+	width: -webkit-calc(100% - 2px);
+	height: calc(100% - 2px);
+	height: -moz-calc(100% - 2px);
+	height: -webkit-calc(100% - 2px);
+	background-color: #fff;
+	border: 1px solid rgb(204, 204, 204);
+	margin: 0 auto;
+}
+.canvas-tool{
+	height: 30px; 
+	line-height: 30px;
+	background: #bcbcbc; 
+	margin: 10px;
+	color: #666;
+	padding: 0 10px;
+}
+.canvas-tool li{
+	float: left;
+	cursor: pointer;
+	font-size: 18px;
+	margin-right: 15px;
+}
+.drag{
+	width: 100px;
+	text-align: center;
+	cursor: move; 
+	padding: 8px;
+	outline: none;
+	display: table;
+	outline-offset: -8px;
+}
+.drag .circle{
+	width: 100%; 
+	height: 100%; 
+	border-radius: 50%; 
+	border: 0px solid rgb(255, 255, 255); 
+	background: rgb(193, 193, 193); 
+	outline: none;
+}
+.drag .square{
+	width: 100%; 
+	height: 100%; 
+	border-radius: 10px; 
+	border: 2px solid rgb(32, 158, 145); 
+	background: rgb(255, 255, 255); 
+	outline: none;
+}
+.drag .send-btn{
+	width: 100%; 
+	height: 100%;
+    color: #fff;
+    background: #209e91;
+    font-size: 12px;
+    text-align: center;
+    border: 2px solid #209e91;
+    border-radius: 25px; 
+}
+.drag .chart{
+	width: 100%; 
+	height: 100%;
+}
+.drag img{width: 100%; height: 100%;  text-align: center;}
+.drag p{display: table-cell; vertical-align: middle; font-family: 'Arial'; font-weight: normal;}
+.drag button{width: 100px; height: 40px; line-height: 40px; cursor: move;}
+.drag-active{
+	padding: 8px;
+	outline: rgb(32, 158, 145) dotted 8px;
+    outline-offset: -8px;
+}
+/*属性设置*/
+.style-box{
+	width: 15%;
+	padding: 10px 0;
+}
+#element{
+	width: calc(100% - 45px);
+	width: -moz-calc(100% - 45px);
+	width: -webkit-calc(100% - 45px);
+	margin: 0 10px;
+}
+.style-setting{
+	height: auto;
+	width: 100%;
+}
+.setting-title{
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	background: #d5dde0;
+	font-size: 16px;
+}
+.setting-item{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	cursor: pointer;
+}
+.setting-active{
+	background: #76919d;
+	color: #fff;
+	border-radius: 5px;
+}
+.setting-select{
+	width: calc(100% - 45px);
+	width: -moz-calc(100% - 45px);
+	width: -webkit-calc(100% - 45px);
+	margin: 0 10px;
+	height: 28px;
+	line-height: 28px;
+}
+.setting-select select{ width: 65%; }
+/*字体表格*/
+.i_attrName{
+	text-align: right;
+	width: 80px;
+	font-size:12px;
+}
+.style-setting td{
+	padding:5px 0;
+}
+input.input0 {
+	width: 100px;
+	height: 24px;
+	padding: 5px;
+	color: #666;
+	line-height: 24px;
+	border: 1px solid #cbcbcb;
+	background: #fff;
+	vertical-align: middle;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.style-setting select{
+	height: 28px;
+	color: #666;
+	line-height: 28px;
+	border: 1px solid #cbcbcb;
+	background: #fff;
+	vertical-align: middle;
+}

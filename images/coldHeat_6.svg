@@ -1,0 +1,59 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="200px" viewBox="0 0 99 72" version="1.1" databind="databindHide"><defs/>
+  <svg width="99" heitht="72" fill="none">
+  <path d="M50,20L11,20 11,38 50,38 50,20z" fill="#333300" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M48,11L65,11 65,32 53,32 53,22 48,22 48,11z" fill="#7F7F59" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M48,13L63,13 63,30 55,30 55,20 48,20 48,13z" fill="#B2B29B" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M48,15L61,15 61,28 57,28 57,18 48,18 48,15z" fill="#CCCCBD" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M65,11L53,22" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M92,28L40,28 40,38 92,38 92,28z" fill="#4C4C16" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M92,30L40,30 40,38 92,38 92,30z" fill="#666638" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M92,33L40,33 40,38 92,38 92,33z" fill="#7F7F59" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M92,35L40,35 40,38 92,38 92,35z" fill="#99997A" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M94,38L73,38 73,32 46,32 46,38 5,38 5,65 94,65 94,38z" fill="#666638" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M94,40L71,40 71,33 48,33 48,40 5,40 5,63 94,63 94,40z" fill="#7A7A51" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M94,43L5,43 5,61 94,61 94,43z" fill="#8F8F6E" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M94,45L5,45 5,58 94,58 94,45z" fill="#A3A387" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M94,47L5,47 5,56 94,56 94,47z" fill="#B8B8A4" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M94,50L5,50 5,54 94,54 94,50z" fill="#CCCCBD" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M96,48L94,48 94,69 96,69 96,48z" fill="#99997A" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M96,36L94,36 94,48 96,48 96,36z" fill="#CCCCBD" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M5,48L3,48 3,69 5,69 5,48z" fill="#99997A" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M5,36L3,36 3,48 5,48 5,36z" fill="#CCCCBD" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M69,18L50,18 50,44 69,44 69,18z" fill="#B2B29B" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M65,46L53,46 53,59 65,59 65,46z" fill="#B2B29B" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M48,24L48,9 34,5 34,3 26,3 22,5 22,28 26,30 34,30 34,28 48,24z" fill="#7F7F59" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M20,22L20,3 7,3 7,22 20,22z" fill="#B2B29B" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M48,23L48,10 34,6 34,5 26,5 22,6 22,26 26,28 34,28 34,26 48,23z" fill="#99997A" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M48,22L48,11 34,8 34,7 26,7 22,8 22,25 26,26 34,26 34,25 48,22z" fill="#B2B29B" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M48,20L48,13 34,11 34,11 26,11 22,11 22,21 26,22 34,22 34,21 48,20z" fill="#CCCCBD" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M48,18L48,15 34,15 34,14 26,14 22,15 22,18 26,18 34,18 34,18 48,18z" fill="#E5E5DD" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M48,24L48,9 34,5 34,3 26,3 22,5 22,28 26,30 34,30 34,28 48,24" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M34,28L34,5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M26,30L26,3" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M32,30L32,3" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M28,3L28,30" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M24,30L13,30 13,38 24,38 24,30z" fill="#7F7F59" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M24,31L13,31 13,37 24,37 24,31z" fill="#99997A" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M24,31L13,31 13,37 24,37 24,31z" fill="#B2B29B" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M24,32L13,32 13,36 24,36 24,32z" fill="#CCCCBD" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M24,33L13,33 13,35 24,35 24,33z" fill="#E5E5DD" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M24,30L13,30 13,38 24,38 24,30" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M24,32L36,32 36,24 37,24 37,33 24,33 24,32z" fill="#666638" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M33,34L24,34 24,36 33,36 33,34z" fill="#99997A" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M34,38L34,30 36,30 36,31 35,31 35,38 34,38z" fill="#99997A" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M37,30L43,30 43,31 37,31 37,30z" fill="#99997A" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M63,25L56,25 56,34 63,34 63,25z" fill="#4C4C4C" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M62,25L56,25 56,34 62,34 62,25z" fill="#E5E5E5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M66,40L52,40 52,43 66,43 66,40z" fill="#4C4C4C" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M65,41L59,41 59,42 65,42 65,41z" fill="#990000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M94,26L92,26 92,38 94,38 94,26z" fill="#B2B29B" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M50,19L68,19 68,43" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M54,47L64,47 64,58" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M56,56L55,56 55,56 56,56 56,56z" fill="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M63,49L62,49 62,50 63,50 63,49z" fill="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M56,49L55,49 55,50 56,50 56,49z" fill="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M65,59L53,59 53,60 65,60 65,59z" fill="#4C4C16" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M69,44L50,44 50,45 69,45 69,44z" fill="#4C4C16" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M19,21L19,4 8,4" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+  </svg>

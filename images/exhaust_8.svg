@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" version="1.1"><defs/>
+    <svg width='100%' height='100%'  viewBox="0 0 100 100" databind="databindHide">
+        <path id="filter_face" d="M 80,00 L50,30 L50,100 L80,70" fill="#606060" />
+
+        <path d="M 50,38 L80,8 L80,12 L50,42  Z" fill="#808080" />
+        <path d="M 50,48 L80,18 L80,22 L50,52 Z" fill="#808080" />
+        <path d="M 50,58 L80,28 L80,32 L50,62 Z" fill="#808080" />
+        <path d="M 50,68 L80,38 L80,42 L50,72 Z" fill="#808080" />
+        <path d="M 50,78 L80,48 L80,52 L50,82 Z" fill="#808080" />
+        <path d="M 50,88 L80,58 L80,62 L50,92 Z" fill="#808080" />
+
+        <path d="M 50,76.66 L70,10" stroke="#B0B0B0" stroke-width="1" stroke-linejoin="round"/>
+        <path d="M 50,53.33 L60,20" stroke="#B0B0B0" stroke-width="1" stroke-linejoin="round"/>
+        <path d="M 50,100 L80,0   " stroke="#B0B0B0" stroke-width="1" stroke-linejoin="round"/>
+        <path d="M 60,90 L80,23.33" stroke="#B0B0B0" stroke-width="1" stroke-linejoin="round"/>
+        <path d="M 70,80 L80,46.66" stroke="#B0B0B0" stroke-width="1" stroke-linejoin="round"/>
+
+        <path d="M 50,76.66 L60,90" stroke="#B0B0B0" stroke-width="1" stroke-linejoin="round"/>
+        <path d="M 50,53.33 L70,80" stroke="#B0B0B0" stroke-width="1" stroke-linejoin="round"/>
+        <path d="M 50,30 L80,70   " stroke="#B0B0B0" stroke-width="1" stroke-linejoin="round"/>
+        <path d="M 60,20 L80,46.66" stroke="#B0B0B0" stroke-width="1" stroke-linejoin="round"/>
+        <path d="M 70,10 L80,23.33" stroke="#B0B0B0" stroke-width="1" stroke-linejoin="round"/>
+
+        <path id="filter_frameTop" d="M 70,0 L40,30 L50,30 L80,0" fill="#C1C1C1" />
+        <path id="filter_frameFront" d="M 40,30 L40,100 L50,100 L50,30" fill="#A0A0A0" />
+      <svg x="42" y="35">
+        <rect width="6" height="10" fill="#00FF00" databind="databind1" style="display: none;"/>
+        <rect width="6" height="10" fill="#606060" databind="databind2" style="display: block;"/>
+      </svg>
+    </svg>
+</svg>
